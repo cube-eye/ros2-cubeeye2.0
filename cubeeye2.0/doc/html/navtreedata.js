@@ -1,3 +1,25 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "libCubeEye", "index.html", [
@@ -27,8 +49,8 @@ var NAVTREE =
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
@@ -44,8 +66,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_cube_eye_8h.html",
-"class_cube_eye_data.html#a5529ada79011a5fddf34f88d99f8edd5",
-"struct_cube_eye_camera_1_1_distortion_coefficients_1_1_radial_coefficient.html#a0a7c9a3202059d2cc492cb96a767e259"
+"class_cube_eye_data.html#a32829dd732b1d36f0096e090e8b93ffd",
+"struct_cube_eye_camera_1_1_distortion_coefficients.html#a59581eb32365ec7058a1e1f41450abdb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

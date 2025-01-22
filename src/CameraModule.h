@@ -19,6 +19,7 @@ public:
     // camera operations
     std::vector<std::string> scan();
     meere::sensor::result connect(int32_t index);
+    meere::sensor::result connect(std::string serialNumber); 
     meere::sensor::result run(int32_t type);
     meere::sensor::result stop();
     meere::sensor::result disconnect();

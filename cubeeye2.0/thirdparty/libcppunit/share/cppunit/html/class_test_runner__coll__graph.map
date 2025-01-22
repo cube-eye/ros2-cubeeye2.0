@@ -1,7 +1,0 @@
-<map id="TestRunner" name="TestRunner">
-<area shape="rect" id="node1" title="Generic test runner." alt="" coords="57,323,151,349"/>
-<area shape="rect" id="node2" href="$class_test_runner_1_1_wrapping_suite.html" title="(INTERNAL) Mutating test suite." alt="" coords="5,233,203,260"/>
-<area shape="rect" id="node3" href="$class_test_suite.html" title="A Composite of Tests." alt="" coords="63,157,145,184"/>
-<area shape="rect" id="node4" href="$class_test_composite.html" title="A Composite of Tests." alt="" coords="45,81,163,108"/>
-<area shape="rect" id="node5" href="$class_test.html" title="Base class for all test objects." alt="" coords="80,5,128,32"/>
-</map>

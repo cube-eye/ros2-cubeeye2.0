@@ -1,4 +1,0 @@
-<map id="TestComposite" name="TestComposite">
-<area shape="rect" id="node1" title="A Composite of Tests." alt="" coords="5,80,124,107"/>
-<area shape="rect" id="node2" href="$class_test.html" title="Base class for all test objects." alt="" coords="41,5,89,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="TestSetUp" name="TestSetUp">
-<area shape="rect" id="node1" title="Decorates a test by providing a specific setUp() and tearDown()." alt="" coords="18,155,105,181"/>
-<area shape="rect" id="node2" href="$class_test_decorator.html" title="Decorator for Tests." alt="" coords="5,80,117,107"/>
-<area shape="rect" id="node3" href="$class_test.html" title="Base class for all test objects." alt="" coords="37,5,85,32"/>
-</map>

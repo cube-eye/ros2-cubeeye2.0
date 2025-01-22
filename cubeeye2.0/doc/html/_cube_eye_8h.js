@@ -15,7 +15,7 @@ var _cube_eye_8h =
     [ "int64u", "_cube_eye_8h.html#ae1edebdbdcbb836efa76237fee1e4278", null ],
     [ "int8s", "_cube_eye_8h.html#a9a77d95184976e5c13e212e81c0b7d22", null ],
     [ "int8u", "_cube_eye_8h.html#a08c209c29dc36a093a58240d55b0999e", null ],
-    [ "result", "_cube_eye_8h.html#a12c744978a51a4a2aba60916daa78993", null ],
+    [ "result", "_cube_eye_8h.html#a13da4de51c2a21fa288ef095fb5a1108", null ],
     [ "result", "_cube_eye_8h.html#a937d4dd628a8858b443a399410d2600b", [
       [ "unknown", "_cube_eye_8h.html#a937d4dd628a8858b443a399410d2600ba5b9f6d065e6e98483b3d3ed01f4f6cbe", null ],
       [ "success", "_cube_eye_8h.html#a937d4dd628a8858b443a399410d2600bab8916948582bbb4902d6ad269064f7ef", null ],

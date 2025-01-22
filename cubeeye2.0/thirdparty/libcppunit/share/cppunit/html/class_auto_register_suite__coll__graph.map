@@ -1,5 +1,0 @@
-<map id="AutoRegisterSuite&lt; TestCaseType &gt;" name="AutoRegisterSuite&lt; TestCaseType &gt;">
-<area shape="rect" id="node1" title="(Implementation) Automatically register the test suite of the specified type." alt="" coords="5,171,156,212"/>
-<area shape="rect" id="node2" href="$class_test_factory_registry.html" title="Registry for TestFactory." alt="" coords="6,81,155,108"/>
-<area shape="rect" id="node3" href="$class_test_factory.html" title="Abstract Test factory." alt="" coords="33,5,128,32"/>
-</map>

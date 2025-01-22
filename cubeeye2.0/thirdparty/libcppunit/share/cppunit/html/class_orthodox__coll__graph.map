@@ -1,7 +1,0 @@
-<map id="Orthodox&lt; ClassUnderTest &gt;" name="Orthodox&lt; ClassUnderTest &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="5,229,217,256"/>
-<area shape="rect" id="node2" href="$class_test_case.html" title="A single test object." alt="" coords="71,155,151,181"/>
-<area shape="rect" id="node3" href="$class_test_leaf.html" title="A single test object." alt="" coords="19,80,95,107"/>
-<area shape="rect" id="node4" href="$class_test.html" title="Base class for all test objects." alt="" coords="33,5,81,32"/>
-<area shape="rect" id="node5" href="$class_test_fixture.html" title="Wraps a test case with setUp and tearDown methods." alt="" coords="119,80,213,107"/>
-</map>

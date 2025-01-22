@@ -59,7 +59,7 @@
 /* #undef HAVE_DC1394 */
 
 /* IEEE1394 capturing support - libdc1394 v2.x */
-#define HAVE_DC1394_2
+/* #undef HAVE_DC1394_2 */
 
 /* DirectX */
 /* #undef HAVE_DIRECTX */
@@ -72,7 +72,7 @@
 /* #undef HAVE_DSHOW */
 
 /* Eigen Matrix & Linear Algebra Library */
-#define HAVE_EIGEN
+/* #undef HAVE_EIGEN */
 
 /* FFMpeg video library */
 /* #undef HAVE_FFMPEG */

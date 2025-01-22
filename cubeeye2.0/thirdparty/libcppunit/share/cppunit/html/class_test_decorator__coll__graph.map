@@ -1,4 +1,0 @@
-<map id="TestDecorator" name="TestDecorator">
-<area shape="rect" id="node1" title="Decorator for Tests." alt="" coords="5,95,117,121"/>
-<area shape="rect" id="node2" href="$class_test.html" title="Base class for all test objects." alt="" coords="37,5,85,32"/>
-</map>

@@ -117,6 +117,34 @@ void CubeEyeCameraNode::getDisconnectServiceCallback(const std::shared_ptr<cubee
     mCamera->disconnectFrom(this);
 }
 
+void CubeEyeCameraNode::autorun(std::string serialNumber, uint32_t frameType) {
+    RCLCPP_INFO(mLogger, "autorun (serial number: %s, frametype %d)", serialNumber.c_str(), frameType);
+
+    std::vector<std::string> list = mCamera->scan();
+
+    if (!list.empty()) {
+        RCLCPP_INFO(mLogger, "connect camera(serialnumber: %s)", serialNumber.c_str());
+        meere::sensor::result _rt = mCamera->connect(serialNumber);
+        if (_rt != meere::sensor::result::success) {
+            RCLCPP_ERROR(mLogger, "camera connection failed.");
+            return;
+        }
+
+        mCamera->connectTo(this);
+
+        RCLCPP_INFO(mLogger, "run camera(type: %d)", frameType);
+        _rt = mCamera->run(frameType);
+        if (_rt != meere::sensor::result::success) {
+            RCLCPP_ERROR(mLogger, "mCamera->run() failed");
+        }
+
+        RCLCPP_INFO(mLogger, "camera is running.");
+    }
+    else {
+        RCLCPP_ERROR(mLogger, "no source found.");
+    }
+}
+
 bool CubeEyeCameraNode::shutdown()
 {
     RCLCPP_INFO(mLogger, "node shutdown");
@@ -133,6 +161,26 @@ int main(int argc, char **argv)
     node->init();
 
     RCLCPP_INFO(node->get_logger(), "cubeeye camera node started");
+
+    // declare launch parameters
+    node->declare_parameter("autorun_onoff", false);
+    node->declare_parameter("autorun_serialnumber", "");
+    node->declare_parameter("autorun_frametype", 6);
+
+    bool _autorun = node->get_parameter("autorun_onoff").as_bool();
+    RCLCPP_INFO(node->get_logger(), "autorun_onoff %d", _autorun);
+
+    if (_autorun) {
+        std::string _serialNumber = node->get_parameter("autorun_serialnumber").as_string();
+        RCLCPP_INFO(node->get_logger(), "autorun_serialnumber %s", _serialNumber.c_str());
+
+        int _frameType = node->get_parameter("autorun_frametype").as_int();
+        RCLCPP_INFO(node->get_logger(), "autorun_frametype %d", _frameType);
+
+        if (!_serialNumber.empty()) {
+            node->autorun(_serialNumber, _frameType);
+        }
+    }
 
     rclcpp::spin(node);
     rclcpp::shutdown();

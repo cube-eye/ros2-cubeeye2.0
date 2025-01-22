@@ -1,9 +1,0 @@
-<map id="TextOutputter" name="TextOutputter">
-<area shape="rect" id="node1" title="Prints a TestResultCollector to a text stream." alt="" coords="13,351,124,377"/>
-<area shape="rect" id="node2" href="$class_outputter.html" title="Abstract outputter to print test result summary." alt="" coords="5,261,89,288"/>
-<area shape="rect" id="node3" href="$class_test_result_collector.html" title="Collects test result." alt="" coords="114,261,261,288"/>
-<area shape="rect" id="node4" href="$class_test_success_listener.html" title="TestListener that checks if any test case failed." alt="" coords="111,185,263,212"/>
-<area shape="rect" id="node5" href="$class_test_listener.html" title="Listener for test progress and result." alt="" coords="121,109,221,136"/>
-<area shape="rect" id="node6" href="$class_synchronized_object.html" title="Base class for synchronized object." alt="" coords="245,109,396,136"/>
-<area shape="rect" id="node7" href="$class_synchronized_object_1_1_synchronization_object.html" title="Abstract synchronization object (mutex)" alt="" coords="233,5,409,47"/>
-</map>

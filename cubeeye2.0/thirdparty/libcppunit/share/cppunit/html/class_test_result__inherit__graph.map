@@ -1,5 +1,0 @@
-<map id="TestResult" name="TestResult">
-<area shape="rect" id="node1" title="Manages TestListener." alt="" coords="36,80,125,107"/>
-<area shape="rect" id="node3" href="$class_text_test_result.html" title="Holds printable test result (DEPRECATED)." alt="" coords="23,155,139,181"/>
-<area shape="rect" id="node2" href="$class_synchronized_object.html" title="Base class for synchronized object." alt="" coords="5,5,156,32"/>
-</map>

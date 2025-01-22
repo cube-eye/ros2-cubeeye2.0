@@ -1,8 +1,0 @@
-<map id="TestFixture" name="TestFixture">
-<area shape="rect" id="node1" title="Wraps a test case with setUp and tearDown methods." alt="" coords="275,5,369,32"/>
-<area shape="rect" id="node2" href="$class_test_case.html" title="A single test object." alt="" coords="282,80,362,107"/>
-<area shape="rect" id="node3" href="$class_orthodox.html" title=" " alt="" coords="5,155,217,181"/>
-<area shape="rect" id="node4" href="$class_test_caller.html" title="Generate a test case from a fixture method." alt="" coords="241,155,403,181"/>
-<area shape="rect" id="node5" href="$class_test_case_decorator.html" title="Decorator for Test cases." alt="" coords="427,155,571,181"/>
-<area shape="rect" id="node6" href="$class_exception_test_case_decorator.html" title="Expected exception test case decorator." alt="" coords="395,229,603,271"/>
-</map>

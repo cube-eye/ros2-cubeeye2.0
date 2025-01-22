@@ -37,6 +37,6 @@ var class_cube_eye_property =
     [ "isNumeric", "class_cube_eye_property.html#ab71fa348382a7425ec8d08efdcb50dc6", null ],
     [ "isString", "class_cube_eye_property.html#a5529ada79011a5fddf34f88d99f8edd5", null ],
     [ "key", "class_cube_eye_property.html#a01ab320bc9277d727164db64a1daaa61", null ],
-    [ "operator=", "class_cube_eye_property.html#ad0a2c0a502a026a50df2ccdc89f9a4d7", null ],
-    [ "operator=", "class_cube_eye_property.html#a733dcc96d655ed65fed83ff13d585841", null ]
+    [ "operator=", "class_cube_eye_property.html#a733dcc96d655ed65fed83ff13d585841", null ],
+    [ "operator=", "class_cube_eye_property.html#ad0a2c0a502a026a50df2ccdc89f9a4d7", null ]
 ];

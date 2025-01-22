@@ -1,4 +1,0 @@
-<map id="TextTestProgressListener" name="TextTestProgressListener">
-<area shape="rect" id="node1" title="TestListener that show the status of each TestCase test result." alt="" coords="5,80,188,107"/>
-<area shape="rect" id="node2" href="$class_test_listener.html" title="Listener for test progress and result." alt="" coords="47,5,147,32"/>
-</map>

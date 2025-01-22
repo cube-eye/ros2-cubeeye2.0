@@ -10,5 +10,5 @@ Requires:
 Requires.private: 
 Conflicts:
 Libs: -L${libdir}  -lavutil 
-Libs.private: -pthread -lm -lXv -lX11 -lXext
+Libs.private: -pthread -lm
 Cflags: -I${includedir}

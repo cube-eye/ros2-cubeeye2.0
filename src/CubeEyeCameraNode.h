@@ -11,6 +11,8 @@ public:
 
     void init();
     bool shutdown();
+
+    void autorun(std::string serialNumber, uint32_t frameType);
     
 protected:
     void getLastStateServiceCallback(const std::shared_ptr<cubeeye_camera::srv::LastState::Request> request, 

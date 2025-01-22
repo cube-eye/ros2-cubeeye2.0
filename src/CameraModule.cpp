@@ -114,6 +114,42 @@ meere::sensor::result CameraModule::connect(int32_t index) {
     return meere::sensor::result::success;
 }
 
+meere::sensor::result CameraModule::connect(std::string serialNumber) {
+    if (mSourceList == nullptr || mSourceList->size() == 0) {
+        RCLCPP_ERROR(mLogger, "source list is null");
+        return meere::sensor::result::fail;
+    }
+
+	for (const auto& it : (*mSourceList)) {
+		if (it->serialNumber() == serialNumber) {
+			mCamera = meere::sensor::create_camera(it);
+			break;
+		}
+	}
+
+	if (!mCamera) {
+        RCLCPP_ERROR(mLogger, "camera creation failed");
+        return meere::sensor::result::fail;
+	}
+
+    meere::sensor::add_prepared_listener(mSink.get());
+
+    mCamera->addSink(mSink.get());
+
+    meere::sensor::result _rt;
+    _rt = mCamera->prepare();
+    assert(meere::sensor::result::success == _rt);
+    if (meere::sensor::result::success != _rt) {
+        RCLCPP_ERROR(mLogger, "mCamera->prepare() failed");
+
+        meere::sensor::destroy_camera(mCamera);
+        return meere::sensor::result::fail;
+    }
+    RCLCPP_INFO(mLogger, "camera is connected");
+
+    return meere::sensor::result::success;
+}
+
 meere::sensor::result CameraModule::run(int32_t type) {
     if (mCamera == nullptr) {
         RCLCPP_ERROR(mLogger, "camera is not created");
@@ -307,10 +343,10 @@ void CameraModule::createPublishers(rclcpp::Node* node)
 {
     auto _qos = rclcpp::QoS(rclcpp::SystemDefaultsQoS());
 
-    mDepthImagePublisher = node->create_publisher<sensor_msgs::msg::Image>("/cubeeye/camera/depth", _qos);
-    mAmplitudeImagePublisher = node->create_publisher<sensor_msgs::msg::Image>("/cubeeye/camera/amplitude", _qos);
-    mRGBImagePublisher = node->create_publisher<sensor_msgs::msg::Image>("/cubeeye/camera/rgb", _qos);
-    mPointCloudPublisher = node->create_publisher<sensor_msgs::msg::PointCloud2>("/cubeeye/camera/points", _qos);
+    mDepthImagePublisher = node->create_publisher<sensor_msgs::msg::Image>("~/depth", _qos);
+    mAmplitudeImagePublisher = node->create_publisher<sensor_msgs::msg::Image>("~/amplitude", _qos);
+    mRGBImagePublisher = node->create_publisher<sensor_msgs::msg::Image>("~/rgb", _qos);
+    mPointCloudPublisher = node->create_publisher<sensor_msgs::msg::PointCloud2>("~/points", _qos);
 }
 
 sensor_msgs::msg::Image::SharedPtr CameraModule::createImageMessage(meere::sensor::FrameType type, int32_t width, int32_t height) 

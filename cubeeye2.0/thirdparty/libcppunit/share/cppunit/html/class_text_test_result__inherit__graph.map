@@ -1,8 +1,0 @@
-<map id="TextTestResult" name="TextTestResult">
-<area shape="rect" id="node1" title="Holds printable test result (DEPRECATED)." alt="" coords="93,229,209,256"/>
-<area shape="rect" id="node2" href="$class_test_result.html" title="Manages TestListener." alt="" coords="36,155,125,181"/>
-<area shape="rect" id="node3" href="$class_synchronized_object.html" title="Base class for synchronized object." alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node5" href="$class_test_success_listener.html" title="TestListener that checks if any test case failed." alt="" coords="147,80,299,107"/>
-<area shape="rect" id="node4" href="$class_test_result_collector.html" title="Collects test result." alt="" coords="150,155,297,181"/>
-<area shape="rect" id="node6" href="$class_test_listener.html" title="Listener for test progress and result." alt="" coords="180,5,280,32"/>
-</map>

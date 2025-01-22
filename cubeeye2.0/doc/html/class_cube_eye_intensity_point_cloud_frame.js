@@ -12,7 +12,8 @@ var class_cube_eye_intensity_point_cloud_frame =
       [ "RGB", "class_cube_eye_intensity_point_cloud_frame.html#a8c3f1ae164a6441863eb19de1b3d85f3aa87848332131b5b042bf9850869e6950", null ],
       [ "RegisteredDepth", "class_cube_eye_intensity_point_cloud_frame.html#a8c3f1ae164a6441863eb19de1b3d85f3abb1ff3cef032fa6074af9269ecfe05b9", null ],
       [ "RegisteredRGB", "class_cube_eye_intensity_point_cloud_frame.html#a8c3f1ae164a6441863eb19de1b3d85f3a8419151dd0e4f75cfe22327c98502a78", null ],
-      [ "IntensityPointCloud", "class_cube_eye_intensity_point_cloud_frame.html#a8c3f1ae164a6441863eb19de1b3d85f3af1118608767c4682b684f57784ca5f32", null ]
+      [ "IntensityPointCloud", "class_cube_eye_intensity_point_cloud_frame.html#a8c3f1ae164a6441863eb19de1b3d85f3af1118608767c4682b684f57784ca5f32", null ],
+      [ "RegisteredPointCloud", "class_cube_eye_intensity_point_cloud_frame.html#a8c3f1ae164a6441863eb19de1b3d85f3a605d5c22a6172d15220b7d73657a9c11", null ]
     ] ],
     [ "CubeEyeIntensityPointCloudFrame", "class_cube_eye_intensity_point_cloud_frame.html#a41285f82761ed4b1c815a6a5a8bc0fcb", null ],
     [ "~CubeEyeIntensityPointCloudFrame", "class_cube_eye_intensity_point_cloud_frame.html#a50f8a173f26e3ea84385153300ddccf8", null ],

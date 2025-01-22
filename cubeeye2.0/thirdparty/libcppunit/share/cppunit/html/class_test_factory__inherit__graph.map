@@ -1,5 +1,0 @@
-<map id="TestFactory" name="TestFactory">
-<area shape="rect" id="node1" title="Abstract Test factory." alt="" coords="133,5,227,32"/>
-<area shape="rect" id="node2" href="$class_test_factory_registry.html" title="Registry for TestFactory." alt="" coords="5,87,155,114"/>
-<area shape="rect" id="node3" href="$class_test_suite_factory.html" title="TestFactory for TestFixture that implements a static suite() method." alt="" coords="179,80,381,121"/>
-</map>

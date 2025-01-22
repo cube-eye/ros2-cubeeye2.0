@@ -1,4 +1,0 @@
-<map id="XmlOutputter" name="XmlOutputter">
-<area shape="rect" id="node1" title="Outputs a TestResultCollector in XML format." alt="" coords="5,80,116,107"/>
-<area shape="rect" id="node2" href="$class_outputter.html" title="Abstract outputter to print test result summary." alt="" coords="19,5,103,32"/>
-</map>

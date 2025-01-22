@@ -1,7 +1,0 @@
-<map id="SynchronizedObject" name="SynchronizedObject">
-<area shape="rect" id="node1" title="Base class for synchronized object." alt="" coords="45,5,196,32"/>
-<area shape="rect" id="node2" href="$class_test_result.html" title="Manages TestListener." alt="" coords="5,155,95,181"/>
-<area shape="rect" id="node4" href="$class_test_success_listener.html" title="TestListener that checks if any test case failed." alt="" coords="109,80,261,107"/>
-<area shape="rect" id="node3" href="$class_text_test_result.html" title="Holds printable test result (DEPRECATED)." alt="" coords="63,229,179,256"/>
-<area shape="rect" id="node5" href="$class_test_result_collector.html" title="Collects test result." alt="" coords="119,155,266,181"/>
-</map>
